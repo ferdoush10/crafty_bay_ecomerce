@@ -1,3 +1,4 @@
+import 'package:crafty_bay/controller_binder.dart';
 import 'package:crafty_bay/presentation/ui/screens/auth/splash_screen.dart';
 
 import 'package:crafty_bay/presentation/ui/utility/app_theme_data.dart';
@@ -13,6 +14,7 @@ class CraftBay extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppThemeData.lightThemeData,
       home: const SplashScreen(),
+      initialBinding: ControllerBinder(),
     );
   }
 }
