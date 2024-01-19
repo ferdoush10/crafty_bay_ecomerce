@@ -85,7 +85,7 @@ class _VerifyOTPScreenState extends State<VerifyOTPScreen> {
                 backgroundColor: Colors.transparent,
                 enableActiveFill: true,
                 onCompleted: (v) {
-                  print("Completed");
+                  //print("Completed");
                 },
                 appContext: context,
               ),
