@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:crafty_bay/presentation/ui/screens/auth/complete_profile_screen.dart';
 import 'package:crafty_bay/presentation/ui/utility/app_colors.dart';
 import 'package:crafty_bay/presentation/ui/widgets/app_logo.dart';
@@ -103,7 +102,7 @@ class _VerifyOTPScreenState extends State<VerifyOTPScreen> {
                       style: const TextStyle(color: Colors.grey),
                       children: [
                     const TextSpan(text: "This code will expire "),
-                    //TODO- make the timer is workeable, it has done without package
+                    //todo- make the timer is workeable, it has done without package
                     TextSpan(
                         text: "$timerSeconds seconds",
                         style: const TextStyle(
